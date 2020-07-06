@@ -1,0 +1,1 @@
+export const CRYPTO_COMPARE_API_KEY = '694756c1e09d72993b332bb27e5947a716baba31fdfcb77b095bf58fb2af8eaa';
