@@ -28,7 +28,7 @@ export default function({ topSection }) {
                         {
                             getCoinsToDisplay(coinList, topSection, favorites, filteredCoins).map(
                                 (coinKey) => (
-                                    <CoinTile topSection={topSection} coinKey={coinKey}/>
+                                    <CoinTile key={coinKey} topSection={topSection} coinKey={coinKey}/>
                                 ) 
                             )
                         }
