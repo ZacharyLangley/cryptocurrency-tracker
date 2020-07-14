@@ -1,3 +1,5 @@
+import {lightTheme} from '../Shared/Styles';
+
 export default {
 	colors: [
         '#61d936',
@@ -10,10 +12,10 @@ export default {
         '#1B2839'
     ],
 	chart: {
-		backgroundColor: '#061a44', // sets background color of entire chart, set to same card color for transparency effects
+		backgroundColor: lightTheme ? 'white' : '#061a44', // sets background color of entire chart, set to same card color for transparency effects
 		borderWidth: 0,
 		borderRadius: 0,
-		plotBackgroundColor: '#061a44',
+		plotBackgroundColor: lightTheme ? 'white' : '#061a44',
 		plotShadow: false,
 		plotBorderWidth: 0
 	},
